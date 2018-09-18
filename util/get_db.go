@@ -28,6 +28,12 @@ func Get_home_path() string {
 	return user_home
 }
 
+// 获取模板目录
+func Get_tmeplate_path() string {
+	home_path:=Get_home_path()
+	return home_path+"/templates/"
+	}
+
 //获取mysql对象
 //获取mysql对象
 //获取mysql对象
